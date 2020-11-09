@@ -1,0 +1,33 @@
+
+<app-navbar></app-navbar>
+<div class="jumbotron">
+    
+        <div  *ngFor="let quest Of questions">
+          
+          <div >Question{{quest.id}}  {{quest.question}} 
+           <div  *ngFor="let opt Of quest.options">
+            <input type="radio" name="option" value="{{opt.A}}" (change)="radioChangeHandler($event)">{{opt.A}}<br>
+            <input type="radio" name="option" value="{{opt.B}}" (change)="radioChangeHandler($event)">{{opt.B}}<br>
+            <input type="radio" name="option" value="{{opt.C}}" (change)="radioChangeHandler($event)">{{opt.C}}<br>
+            <input type="radio" name="option" value="{{opt.D}}" (change)="radioChangeHandler($event)">{{opt.D}}<br>
+            
+        </div> 
+        <br>
+                         
+      </div>
+         
+            
+        </div>
+    
+
+    
+    
+</div>
+        
+    
+        
+ 
+
+
+    
+

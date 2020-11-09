@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "question" : "Which HTML tag do we use to put the JavaScript?",
+        "options" : [
+            {
+                "A" : "<javascript>",
+                "B" : "<script>",
+                "C" : "<js>",
+                "D" : "None of the above"
+            }
+        ],
+        "answer" : "B"
+    },
+    {
+        "id" : 2,
+        "question" : "Which built-in method calls a function for each element in the array?",
+        "options" : [{
+            "A" : "while()",
+            "B" : "loop",
+            "C" : "forEach",
+            "D" : "takeUntil"
+        }],
+        "answer" : "C" 
+    },
+    {
+        "id" : 3,
+        "question" : "What is the difference between let and var?",
+        "options" :[{
+            "A" : "let has local scope",
+        "B" : "Both are same",
+        "C" : "var is new data type",
+        "D" : "let consumes more cpu and ram"
+        }],
+        
+        "answer" : "A"
+    }
+]
